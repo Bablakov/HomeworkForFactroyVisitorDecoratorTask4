@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Assets.Visitor
 {
-    [CreateAssetMenu(fileName = "EnemyFactory", menuName = "EnemyFactory")]
+    [CreateAssetMenu(fileName = "EnemyFactory", menuName = "EnemyFactoryVisitor")]
     public class EnemyFactory: ScriptableObject
     {
         [SerializeField] private Human _humanPrefab;
